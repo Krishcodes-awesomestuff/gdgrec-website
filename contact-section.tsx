@@ -16,13 +16,14 @@ export default function ContactSection() {
         </p>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Image Column */}
-          <div className="relative w-full aspect-[7/8] rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
+          {/* Left Image Column - Hidden on mobile */}
+          <div className="hidden lg:block relative w-full aspect-[7/8] rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
             <Image
-              src="/placeholder.svg?height=450&width=800&text=Contact+Us+Illustration"
+              src="/contact.png"
               alt="Contact Us Illustration"
-              layout="fill"
-              objectFit="cover"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              style={{ objectFit: 'cover' }}
               className="rounded-3xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>

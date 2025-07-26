@@ -7,37 +7,37 @@ export default function EventsSection() {
       title: "Bit N Build Hackathon",
       organizer: "GDG-CRCE X GDG-REC",
       month: "August 2024",
-      image: "/images/event-bit-n-build.png",
+      image: "/images/bitnbuid.png",
     },
     {
       title: "ELYSIUM - Investiture Ceremony",
       organizer: "GDG-REC",
       month: "September 2024",
-      image: "/images/event-elysium.png",
+      image: "/images/elysium.png",
     },
     {
       title: "Gen AI Cohort",
       organizer: "GDG-REC",
       month: "October 2024",
-      image: "/images/event-gen-ai-cohort.png",
+      image: "/images/cohort.png",
     },
     {
       title: "Google Solution Challenge",
       organizer: "GDG-REC",
       month: "January to March 2025",
-      image: "/images/event-google-solution-challenge.png",
+      image: "/images/gsc.png",
     },
     {
       title: "GitRECquest",
       organizer: "GDG-REC X Intellexa-REC",
       month: "February to March 2025",
-      image: "/images/event-gitrecquest.png",
+      image: "/images/gitrecquest.png",
     },
     {
       title: "Funstreet - Recharge 25'",
       organizer: "GDG-REC",
       month: "April 2025",
-      image: "/images/event-funstreet.png",
+      image: "/images/funstreet.png",
     },
   ]
 
@@ -56,12 +56,13 @@ export default function EventsSection() {
               key={index}
               className="overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200"
             >
-              <div className="relative w-full h-48">
+              <div className="relative w-full h-48 bg-gray-100">
                 <Image
                   src={event.image || "/placeholder.svg"}
                   alt={event.title}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  style={{ objectFit: 'cover' }}
                   className="rounded-t-xl"
                 />
               </div>

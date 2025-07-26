@@ -9,7 +9,7 @@ export default function AboutSection() {
           {/* Left Image Column */}
           <div className="relative w-full aspect-video rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
             <Image
-              src="/placeholder.svg?height=450&width=800&text=GDG+Community+Learning"
+              src="/images/about us image.jpg"
               alt="Students collaborating and learning"
               layout="fill"
               objectFit="cover"

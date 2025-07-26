@@ -66,12 +66,18 @@ export default function HeroSection() {
                     <div className="absolute inset-0 rounded-full bg-white/20 transform scale-0 group-hover:scale-100 group-hover:animate-ping transition-transform duration-300"></div>
                   </Link>
                 ))}
-                <Button
-                  size="lg"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                <Link
+                  href="https://gdg.community.dev/gdg-on-campus-rajalakshmi-engineering-college-chennai-india/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Join Now
-                </Button>
+                  <Button
+                    size="lg"
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                  >
+                    Join Now
+                  </Button>
+                </Link>
               </div>
             </div>
 
@@ -112,13 +118,19 @@ export default function HeroSection() {
                   </Link>
                 ))}
                 <div className="pt-4 border-t border-gray-200">
-                  <Button
-                    size="lg"
+                  <Link
+                    href="https://gdg.community.dev/gdg-on-campus-rajalakshmi-engineering-college-chennai-india/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     onClick={closeMobileMenu}
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
                   >
-                    Join Now
-                  </Button>
+                    <Button
+                      size="lg"
+                      className="w-full bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
+                    >
+                      Join Now
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -129,7 +141,118 @@ export default function HeroSection() {
       {/* Hero Section */}
       <main className="relative z-10">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-24">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Mobile Layout - Stacked Content */}
+          <div className="lg:hidden space-y-8">
+            {/* Badge */}
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 border border-blue-200 shadow-sm text-blue-800 font-medium">
+              <Users className="w-4 h-4 mr-2" />
+              Student Community
+            </div>
+
+            {/* Main Heading */}
+            <div className="space-y-4">
+              <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
+                Google Developer Group
+                <br />
+                <span className="text-blue-600">of Rajalakshmi Engineering</span>
+                <br />
+                <span className="text-yellow-500">College</span>
+              </h1>
+            </div>
+
+            {/* Video Container - Between heading and description on mobile */}
+            <div className="relative w-full max-w-sm mx-auto sm:max-w-md">
+              <div className="relative w-full aspect-video bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
+                <video
+                  className="w-full h-full object-cover"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  poster="/images/hero-video.mp4"
+                >
+                  <source src="/images/hero-video.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
+              </div>
+              
+              {/* Mobile Decorative Elements */}
+              <div className="absolute -top-4 -right-4 w-12 h-12 bg-blue-600 rounded-full shadow-lg flex items-center justify-center z-10">
+                <Code className="w-6 h-6 text-white" />
+              </div>
+              <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-green-500 rounded-full shadow-lg flex items-center justify-center z-10">
+                <Lightbulb className="w-6 h-6 text-white" />
+              </div>
+            </div>
+
+            {/* Description */}
+            <p className="text-xl text-gray-700 leading-relaxed">
+              Welcome to the Google Developer Groups (GDG) On Campus at Rajalakshmi Engineering College (REC) the
+              largest technical club in our college! We are a vibrant community of tech enthusiasts dedicated to
+              fostering innovation, collaboration, and learning in the fields of technology and computer science.
+            </p>
+
+            {/* Feature Tags */}
+            <div className="flex flex-wrap gap-3">
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm text-gray-700 text-sm font-medium">
+                <Code className="w-4 h-4 mr-2 text-blue-600" />
+                Hands-on Workshops
+              </div>
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm text-gray-700 text-sm font-medium">
+                <Lightbulb className="w-4 h-4 mr-2 text-yellow-500" />
+                Innovation Projects
+              </div>
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm text-gray-700 text-sm font-medium">
+                <Calendar className="w-4 h-4 mr-2 text-green-500" />
+                Regular Events
+              </div>
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <Link
+                href="https://gdg.community.dev/gdg-on-campus-rajalakshmi-engineering-college-chennai-india/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  size="lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
+                >
+                  Join Our Community
+                </Button>
+              </Link>
+              <Link href="#events">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="border-2 border-gray-300 hover:border-gray-400 px-8 py-4 rounded-full hover:bg-gray-50 transition-all duration-300 text-lg bg-transparent"
+                >
+                  Explore Events
+                </Button>
+              </Link>
+            </div>
+
+            {/* Stats */}
+            <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
+              <div className="text-center sm:text-left">
+                <div className="text-3xl font-bold text-gray-900">60+</div>
+                <div className="text-sm text-gray-600 font-medium">Active Students</div>
+              </div>
+              <div className="text-center sm:text-left">
+                <div className="text-3xl font-bold text-gray-900">20+</div>
+                <div className="text-sm text-gray-600 font-medium">Events Hosted</div>
+              </div>
+              <div className="text-center sm:text-left">
+                <div className="text-3xl font-bold text-gray-900">100%</div>
+                <div className="text-sm text-gray-600 font-medium">Vibe</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Desktop Layout - Side by Side */}
+          <div className="hidden lg:grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content Area */}
             <div className="space-y-8">
               {/* Badge */}
@@ -140,7 +263,7 @@ export default function HeroSection() {
 
               {/* Main Heading */}
               <div className="space-y-4">
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+                <h1 className="text-5xl font-bold text-gray-900 leading-tight">
                   Google Developer Group
                   <br />
                   <span className="text-blue-600">of Rajalakshmi Engineering</span>
@@ -174,19 +297,27 @@ export default function HeroSection() {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button
-                  size="lg"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
+                <Link
+                  href="https://gdg.community.dev/gdg-on-campus-rajalakshmi-engineering-college-chennai-india/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Join Our Community
-                </Button>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="border-2 border-gray-300 hover:border-gray-400 px-8 py-4 rounded-full hover:bg-gray-50 transition-all duration-300 text-lg bg-transparent"
-                >
-                  Explore Events
-                </Button>
+                  <Button
+                    size="lg"
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
+                  >
+                    Join Our Community
+                  </Button>
+                </Link>
+                <Link href="#events">
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="border-2 border-gray-300 hover:border-gray-400 px-8 py-4 rounded-full hover:bg-gray-50 transition-all duration-300 text-lg bg-transparent"
+                  >
+                    Explore Events
+                  </Button>
+                </Link>
               </div>
 
               {/* Stats */}
@@ -207,8 +338,8 @@ export default function HeroSection() {
             </div>
 
             {/* Right Video Container */}
-            <div className="relative">
-              <div className="relative w-full max-w-2xl mx-auto">
+            <div className="relative -mt-48">
+              <div className="relative w-full max-w-lg mx-auto xl:max-w-xl">
                 {/* Main Video Container - 16:9 Aspect Ratio */}
                 <div className="relative w-full aspect-video bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
                   {/* Video Element */}
@@ -218,9 +349,9 @@ export default function HeroSection() {
                     muted
                     loop
                     playsInline
-                    poster="/placeholder.svg?height=450&width=800&text=GDG+Community+Video"
+                    poster="/images/hero-video.mp4"
                   >
-                    <source src="/placeholder.svg?height=450&width=800&text=GDG+Community+Video" type="video/mp4" />
+                    <source src="/images/hero-video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
 
