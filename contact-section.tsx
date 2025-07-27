@@ -36,30 +36,52 @@ export default function ContactSection() {
                 <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-2">
                   Full Name
                 </label>
-                <Input id="fullName" placeholder="John Doe" className="w-full" />
+                <Input 
+                  id="fullName" 
+                  placeholder="John Doe" 
+                  className="w-full" 
+                  suppressHydrationWarning={true} 
+                />
               </div>
               <div>
                 <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-700 mb-2">
                   Phone Number
                 </label>
-                <Input id="phoneNumber" placeholder="+91" className="w-full" />
+                <Input 
+                  id="phoneNumber" 
+                  placeholder="+91" 
+                  className="w-full" 
+                  suppressHydrationWarning={true} 
+                />
               </div>
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                   Email
                 </label>
-                <Input id="email" type="email" placeholder="johndoe@gmail.com" className="w-full" />
+                <Input 
+                  id="email" 
+                  type="email" 
+                  placeholder="johndoe@gmail.com" 
+                  className="w-full" 
+                  suppressHydrationWarning={true} 
+                />
               </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                   Message
                 </label>
-                <Textarea id="message" placeholder="Your message goes here" className="w-full min-h-[120px]" />
+                <Textarea 
+                  id="message" 
+                  placeholder="Your message goes here" 
+                  className="w-full min-h-[120px]" 
+                  suppressHydrationWarning={true} 
+                />
               </div>
               <Button
                 type="submit"
                 size="lg"
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
+                suppressHydrationWarning={true}
               >
                 Submit
               </Button>

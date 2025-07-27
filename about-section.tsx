@@ -11,8 +11,9 @@ export default function AboutSection() {
             <Image
               src="/about.jpg"
               alt="Students collaborating and learning"
-              layout="fill"
-              objectFit="cover"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              style={{ objectFit: 'cover' }}
               className="rounded-3xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>

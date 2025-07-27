@@ -74,6 +74,7 @@ export default function HeroSection() {
                   <Button
                     size="lg"
                     className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                    suppressHydrationWarning={true}
                   >
                     Join Now
                   </Button>
@@ -87,6 +88,7 @@ export default function HeroSection() {
               size="sm"
               onClick={toggleMobileMenu}
               className="md:hidden relative overflow-hidden group bg-white/80 backdrop-blur-sm rounded-full shadow-lg border border-gray-200/50 hover:shadow-xl transition-all duration-300"
+              suppressHydrationWarning={true}
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-green-500 transform scale-0 group-hover:scale-100 transition-transform duration-300 rounded-full"></div>
               {isMobileMenuOpen ? (
@@ -219,6 +221,7 @@ export default function HeroSection() {
                 <Button
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
+                  suppressHydrationWarning={true}
                 >
                   Join Our Community
                 </Button>
@@ -228,6 +231,7 @@ export default function HeroSection() {
                   variant="outline"
                   size="lg"
                   className="border-2 border-gray-300 hover:border-gray-400 px-8 py-4 rounded-full hover:bg-gray-50 transition-all duration-300 text-lg bg-transparent"
+                  suppressHydrationWarning={true}
                 >
                   Explore Events
                 </Button>

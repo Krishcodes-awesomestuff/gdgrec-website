@@ -174,50 +174,12 @@ export default function TeamSection() {
   ]
 
   // Combine all team members into one array
-  const allTeamMembers: TeamMember[] = [
-    ...coreTeam,
-    ...techTeam,
-    ...nonTechTeam
-  ]
-
-  // Carousel navigation functions
-  const nextSlide = () => {
-    if (!isClient) return
-    const step = isMobile ? 1 : 3
-    setCurrentIndex((prevIndex) => 
-      prevIndex + step >= allTeamMembers.length ? 0 : prevIndex + step
-    )
-  }
-
-  const prevSlide = () => {
-    if (!isClient) return
-    const step = isMobile ? 1 : 3
-    setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? Math.max(0, allTeamMembers.length - step) : prevIndex - step
-    )
-  }
-
-  // Don't render carousel controls until client-side hydration is complete
-  if (!isClient) {
-    return (
-      <section id="team" className="py-16 md:py-24 bg-white relative z-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-gray-900 leading-tight text-center mb-12">Meet Our Team</h2>
-          <p className="text-xl text-gray-700 leading-relaxed text-center mb-16 max-w-3xl mx-auto">
-            Our dedicated team of leads drives the GDG REC community forward, fostering innovation and collaboration.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center px-16 md:px-20">
-            {allTeamMembers.slice(0, 3).map((member, index) => renderTeamMember(member, index))}
-          </div>
-        </div>
-      </section>
-    )
-  }
+  const allTeamMembers: TeamMember[] = coreTeam.concat(techTeam, nonTechTeam);
 
   const renderTeamMember = (member: TeamMember, index: number) => (
     <Card
       key={index}
-      className="flex flex-col items-center text-center p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 w-84 h-72 hover:scale-105 hover:-translate-y-2 group bg-white"
+      className="flex flex-col items-center text-center p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 w-84 h-80 hover:scale-105 hover:-translate-y-2 group bg-white"
     >
       <div className="relative w-32 h-32 mb-4 overflow-hidden rounded-full border-4 border-blue-200 shadow-md flex-shrink-0 group-hover:border-blue-400 transition-colors duration-300">
         <Image
@@ -270,6 +232,40 @@ export default function TeamSection() {
       </CardContent>
     </Card>
   )
+
+  // Carousel navigation functions
+  const nextSlide = () => {
+    if (!isClient) return
+    const step = isMobile ? 1 : 3
+    setCurrentIndex((prevIndex) => 
+      prevIndex + step >= allTeamMembers.length ? 0 : prevIndex + step
+    )
+  }
+
+  const prevSlide = () => {
+    if (!isClient) return
+    const step = isMobile ? 1 : 3
+    setCurrentIndex((prevIndex) => 
+      prevIndex === 0 ? Math.max(0, allTeamMembers.length - step) : prevIndex - step
+    )
+  }
+
+  // Don't render carousel controls until client-side hydration is complete
+  if (!isClient) {
+    return (
+      <section id="team" className="py-16 md:py-24 bg-white relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-gray-900 leading-tight text-center mb-12">Meet Our Team</h2>
+          <p className="text-xl text-gray-700 leading-relaxed text-center mb-16 max-w-3xl mx-auto">
+            Our dedicated team of leads drives the GDG REC community forward, fostering innovation and collaboration.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center px-16 md:px-20">
+            {allTeamMembers.slice(0, 3).map((member, index) => renderTeamMember(member, index))}
+          </div>
+        </div>
+      </section>
+    )
+  }
 
   return (
     <section id="team" className="py-16 md:py-24 bg-white relative z-10">
