@@ -9,7 +9,7 @@ export default function AboutSection() {
           {/* Left Image Column */}
           <div className="relative w-full aspect-video rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
             <Image
-              src="/images/about us image.jpg"
+              src="/about.jpg"
               alt="Students collaborating and learning"
               layout="fill"
               objectFit="cover"
