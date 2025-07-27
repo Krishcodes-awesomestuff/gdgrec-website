@@ -123,7 +123,7 @@ export default function TeamSection() {
       },
     },
     {
-      name: "Kous",
+      name: "Koustupan",
       role: "Outreach Lead",
       image: "/placeholder.svg?height=200&width=200&text=Koustupan",
       social: {
@@ -133,7 +133,7 @@ export default function TeamSection() {
       },
     },
     {
-      name: "Venkat",
+      name: "Venkateswaran",
       role: "Event Lead",
       image: "/placeholder.svg?height=200&width=200&text=Venkateshwaran",
       social: {
