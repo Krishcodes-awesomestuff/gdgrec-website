@@ -40,9 +40,9 @@ export default function TeamSection() {
       role: "Lead",
       image: "/placeholder.svg?height=200&width=200&text=Rakesh+David",
       social: {
-        email: "mailto:rakesh.david@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:rakeshdavidj@gmail.com",
+        instagram: "https://instagram.com/rakeshdavid_27",
+        linkedin: "https://www.linkedin.com/in/rakesh-david-78b689294/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3B%2F09D64gKSVa20OTPj5WqcA%3D%3D",
       },
     },
     {
@@ -50,9 +50,9 @@ export default function TeamSection() {
       role: "Co-Lead",
       image: "/placeholder.svg?height=200&width=200&text=Kishore",
       social: {
-        email: "mailto:kishore@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:kayyes.kishore@gmail.com",
+        instagram: "https://www.instagram.com/kayyes.kishore/",
+        linkedin: "http://www.linkedin.com/in/kishorekayyes",
       },
     },
     {
@@ -60,8 +60,8 @@ export default function TeamSection() {
       role: "Secretary",
       image: "/placeholder.svg?height=200&width=200&text=Awinthika",
       social: {
-        email: "mailto:awinthika@example.com",
-        instagram: "#",
+        email: "mailto:awinthikas@gmail.com",
+        instagram: "https://instagram.com/awinthika_",
         linkedin: "#",
       },
     },
@@ -71,9 +71,19 @@ export default function TeamSection() {
     {
       name: "Krishnaprasath",
       role: "Web Development Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Krishnaprasath",
+      image: "/core/krishnaprasath.jpg",
       social: {
-        email: "mailto:krishnaprasath@example.com",
+        email: "mailto:krishnaprasathvenkadesan@gmail.com",
+        instagram: "https://instagram.com/prasxth.pvt_",
+        linkedin: "https://www.linkedin.com/in/krishnaprasath-venkadesan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      },
+    },
+    {
+      name: "Lokaa",
+      role: "Web Development Co-Lead",
+      image: "/placeholder.svg?height=200&width=200&text=Lokaa",
+      social: {
+        email: "mailto:lokaa@example.com",
         instagram: "#",
         linkedin: "#",
       },
@@ -83,9 +93,9 @@ export default function TeamSection() {
       role: "App Development Lead",
       image: "/placeholder.svg?height=200&width=200&text=Sanjana",
       social: {
-        email: "mailto:sanjana@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:sanjr.krishnan@gmail.com",
+        instagram: "https://instagram.com/_.sanjana39._",
+        linkedin: "https://www.linkedin.com/in/sanjana-r-83b1712a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     },
     {
@@ -93,7 +103,17 @@ export default function TeamSection() {
       role: "AI Lead",
       image: "/placeholder.svg?height=200&width=200&text=Haresh",
       social: {
-        email: "mailto:haresh@example.com",
+        email: "mailto:haresh.r2103@gmail.com",
+        instagram: "https://www.instagram.com/hareshh_21/?hl=en#",
+        linkedin: "http://www.linkedin.com/in/hareshrajesh",
+      },
+    },
+    {
+      name: "Ishana",
+      role: "AI Co-Lead",
+      image: "/placeholder.svg?height=200&width=200&text=Ishana",
+      social: {
+        email: "mailto:Ishana@example.com",
         instagram: "#",
         linkedin: "#",
       },
@@ -103,9 +123,9 @@ export default function TeamSection() {
       role: "IoT Lead",
       image: "/placeholder.svg?height=200&width=200&text=Deepesh",
       social: {
-        email: "mailto:deepesh@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:230801503@rajalakshmi.edu.in",
+        instagram: "https://instagram.com/_.zeutron._",
+        linkedin: "https://www.linkedin.com/in/deepesh-o-495650329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     },
     {
@@ -118,6 +138,16 @@ export default function TeamSection() {
         linkedin: "#",
       },
     },
+    {
+      name: "Prasanna Kumar",
+      role: "Tech-Ops Co-Lead",
+      image: "/placeholder.svg?height=200&width=200&text=Prasanna",
+      social: {
+        email: "mailto:Prasanna@example.com",
+        instagram: "#",
+        linkedin: "#",
+      },
+    },
   ]
 
   const nonTechTeam: TeamMember[] = [
@@ -126,9 +156,9 @@ export default function TeamSection() {
       role: "Design Lead",
       image: "/placeholder.svg?height=200&width=200&text=Aishwarya",
       social: {
-        email: "mailto:aishwarya@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:aishwaryaarulselvan5@gmail.com",
+        instagram: "https://instagram.com/aishkookie_orchid",
+        linkedin: "https://www.linkedin.com/in/aishwarya-a-2b15b52a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     },
     {
@@ -137,6 +167,16 @@ export default function TeamSection() {
       image: "/placeholder.svg?height=200&width=200&text=Akshithaa",
       social: {
         email: "mailto:akshithaa@example.com",
+        instagram: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      name: "Madhusha Harini",
+      role: "Creative Co-Lead",
+      image: "/placeholder.svg?height=200&width=200&text=Madhusha",
+      social: {
+        email: "mailto:madhusha@example.com",
         instagram: "#",
         linkedin: "#",
       },
@@ -152,11 +192,31 @@ export default function TeamSection() {
       },
     },
     {
+      name: "Aboorvan",
+      role: "Outreach Co-Lead",
+      image: "/placeholder.svg?height=200&width=200&text=Aboorvan",
+      social: {
+        email: "mailto:aboorvan@example.com",
+        instagram: "#",
+        linkedin: "#",
+      },
+    },
+    {
       name: "Venkateswaran",
       role: "Event Lead",
       image: "/placeholder.svg?height=200&width=200&text=Venkateshwaran",
       social: {
-        email: "mailto:venkateshwaran@example.com",
+        email: "mailto:venkateswar.lakshminarasimhan@gmail.com",
+        instagram: "https://www.instagram.com/venky.3825?igsh=ZDFhaGtwcnl4Z3lp&utm_source=qr",
+        linkedin: "https://www.linkedin.com/in/venkateswar-l-0288712a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      },
+    },
+    {
+      name: "Harshavardhan",
+      role: "Event Co-Lead",
+      image: "/placeholder.svg?height=200&width=200&text=Harshavardhan",
+      social: {
+        email: "mailto:Harshavardhan@example.com",
         instagram: "#",
         linkedin: "#",
       },
@@ -166,7 +226,17 @@ export default function TeamSection() {
       role: "Media Lead",
       image: "/placeholder.svg?height=200&width=200&text=Aadhityaa",
       social: {
-        email: "mailto:aadhityaa@example.com",
+        email: "mailto:adithyaasuresh07@gmail.com",
+        instagram: "https://www.instagram.com/mainly_adi/profilecard/?igsh=ZGhuc2k0djB0emsw",
+        linkedin: "http://www.linkedin.com/in/adithyaa-suresh-1330782a2",
+      },
+    },
+    {
+      name: "Benin AF",
+      role: "Media Co-Lead",
+      image: "/placeholder.svg?height=200&width=200&text=Benin",
+      social: {
+        email: "mailto:Benin@example.com",
         instagram: "#",
         linkedin: "#",
       },
@@ -282,6 +352,7 @@ export default function TeamSection() {
             onClick={prevSlide}
             className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-10 w-14 h-14 bg-white rounded-full shadow-xl border border-gray-200 items-center justify-center hover:bg-blue-50 hover:border-blue-300 hover:shadow-2xl transition-all duration-300 hover:scale-110"
             aria-label="Previous team members"
+            suppressHydrationWarning={true}
           >
             <ChevronLeft className="w-7 h-7 text-gray-600 hover:text-blue-600 transition-colors duration-300" />
           </button>
@@ -290,6 +361,7 @@ export default function TeamSection() {
             onClick={nextSlide}
             className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-10 w-14 h-14 bg-white rounded-full shadow-xl border border-gray-200 items-center justify-center hover:bg-blue-50 hover:border-blue-300 hover:shadow-2xl transition-all duration-300 hover:scale-110"
             aria-label="Next team members"
+            suppressHydrationWarning={true}
           >
             <ChevronRight className="w-7 h-7 text-gray-600 hover:text-blue-600 transition-colors duration-300" />
           </button>
@@ -299,6 +371,7 @@ export default function TeamSection() {
             onClick={prevSlide}
             className="md:hidden absolute left-2 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white rounded-full shadow-xl border border-gray-200 flex items-center justify-center hover:bg-blue-50 hover:border-blue-300 transition-all duration-300 hover:scale-110"
             aria-label="Previous team member"
+            suppressHydrationWarning={true}
           >
             <ChevronLeft className="w-6 h-6 text-gray-600 hover:text-blue-600 transition-colors duration-300" />
           </button>
@@ -307,6 +380,7 @@ export default function TeamSection() {
             onClick={nextSlide}
             className="md:hidden absolute right-2 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white rounded-full shadow-xl border border-gray-200 flex items-center justify-center hover:bg-blue-50 hover:border-blue-300 transition-all duration-300 hover:scale-110"
             aria-label="Next team member"
+            suppressHydrationWarning={true}
           >
             <ChevronRight className="w-6 h-6 text-gray-600 hover:text-blue-600 transition-colors duration-300" />
           </button>
@@ -344,6 +418,7 @@ export default function TeamSection() {
                     : 'bg-gray-300 hover:bg-gray-400'
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
+                suppressHydrationWarning={true}
               />
             ))}
           </div>
