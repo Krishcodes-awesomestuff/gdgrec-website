@@ -133,9 +133,9 @@ export default function TeamSection() {
       role: "Tech-Ops Lead",
       image: "/placeholder.svg?height=200&width=200&text=Lokesh",
       social: {
-        email: "mailto:lokesh@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:lokeshsinghn06@gmail.com",
+        instagram: "https://www.instagram.com/lxkishh?igsh=MW8yb2ZzYjRkNjZjMQ==",
+        linkedin: "https://www.linkedin.com/in/lokesh-singh-n-6b40792a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       },
     },
     {
@@ -143,9 +143,9 @@ export default function TeamSection() {
       role: "Tech-Ops Co-Lead",
       image: "/placeholder.svg?height=200&width=200&text=Prasanna",
       social: {
-        email: "mailto:Prasanna@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:Mail-prasannakumarpk2023@gmail.com",
+        instagram: "https://www.instagram.com/prasannnnaaaaa?igsh=MXdmOG4wZjJhMjJmYw%3D%3D&utm_source=qr",
+        linkedin: "https://www.linkedin.com/in/prasannakumar-pandurangan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       },
     },
   ]
@@ -186,9 +186,9 @@ export default function TeamSection() {
       role: "Outreach Lead",
       image: "/placeholder.svg?height=200&width=200&text=Koustupan",
       social: {
-        email: "mailto:koustupan@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:tkoustupan@gmail.com",
+        instagram: "https://www.instagram.com/koustupan9/",
+        linkedin: "https://www.linkedin.com/in/koustupan-t-83bb6a222/",
       },
     },
     {
@@ -216,9 +216,9 @@ export default function TeamSection() {
       role: "Event Co-Lead",
       image: "/placeholder.svg?height=200&width=200&text=Harshavardhan",
       social: {
-        email: "mailto:Harshavardhan@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:harshasri1511@gmail.com",
+        instagram: "https://www.instagram.com/har_shx._?igsh=MjBxdnFyNDk3dHFl",
+        linkedin: "https://www.linkedin.com/in/harshavardhan-s-31a514321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     },
     {
@@ -236,9 +236,9 @@ export default function TeamSection() {
       role: "Media Co-Lead",
       image: "/placeholder.svg?height=200&width=200&text=Benin",
       social: {
-        email: "mailto:Benin@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:benin7070@gmail.com",
+        instagram: "https://www.instagram.com/benin_fx?igsh=bzE4bGt4aXVzbmRw",
+        linkedin: "https://www.linkedin.com/in/benin-a-f-87290b2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     },
   ]
