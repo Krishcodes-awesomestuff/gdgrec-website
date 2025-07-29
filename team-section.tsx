@@ -62,7 +62,7 @@ export default function TeamSection() {
       social: {
         email: "mailto:awinthikas@gmail.com",
         instagram: "https://instagram.com/awinthika_",
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/awinthika-santhanam-24853828a/",
       },
     },
   ]
@@ -83,9 +83,9 @@ export default function TeamSection() {
       role: "Web Development Co-Lead",
       image: "/placeholder.svg?height=200&width=200&text=Lokaa",
       social: {
-        email: "mailto:lokaa@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:lokaa1910@gmail.com",
+        instagram: "https://www.instagram.com/lokaa_1910?igsh=MWczMmFyZm85M2xyeA%3D%3D&utm_source=qr",
+        linkedin: "https://www.linkedin.com/in/lokaa-v-0345b42a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       },
     },
     {
@@ -109,13 +109,13 @@ export default function TeamSection() {
       },
     },
     {
-      name: "Ishana",
+      name: "Ishana Sabrish",
       role: "AI Co-Lead",
       image: "/placeholder.svg?height=200&width=200&text=Ishana",
       social: {
-        email: "mailto:Ishana@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:ishanasabrish78@gmail.com",
+        instagram: "https://www.linkedin.com/in/ishana-sabrish-a842092a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin: "https://www.instagram.com/ixhana._.0206?igsh=MXRsNGg3bDdoOXhlbw==",
       },
     },
     {
@@ -123,7 +123,7 @@ export default function TeamSection() {
       role: "IoT Lead",
       image: "/placeholder.svg?height=200&width=200&text=Deepesh",
       social: {
-        email: "mailto:230801503@rajalakshmi.edu.in",
+        email: "mailto:oggudeepesh2005@gmail.com",
         instagram: "https://instagram.com/_.zeutron._",
         linkedin: "https://www.linkedin.com/in/deepesh-o-495650329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
