@@ -19,7 +19,16 @@ export default function ContactSection() {
     const formData = new FormData(event.currentTarget)
     
     // Add Web3Forms access key from environment variables
-    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "")
+    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY
+    
+    if (!accessKey) {
+      console.error('Web3Forms access key is not configured')
+      setSubmitStatus('error')
+      setIsSubmitting(false)
+      return
+    }
+    
+    formData.append("access_key", accessKey)
 
     const object = Object.fromEntries(formData)
     const json = JSON.stringify(object)
@@ -36,6 +45,8 @@ export default function ContactSection() {
       
       const result = await response.json()
       
+      console.log('Web3Forms response:', result) // Debug log
+      
       if (result.success) {
         setSubmitStatus('success')
         // Reset form
@@ -44,6 +55,7 @@ export default function ContactSection() {
           form.reset()
         }
       } else {
+        console.error('Web3Forms error:', result.message)
         setSubmitStatus('error')
       }
     } catch (error) {
