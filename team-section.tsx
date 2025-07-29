@@ -71,7 +71,7 @@ export default function TeamSection() {
     {
       name: "Krishnaprasath",
       role: "Web Development Lead",
-      image: "/core/krishnaprasath.jpg",
+      image: "/core/Krishnaprasath.jpg",
       social: {
         email: "mailto:krishnaprasathvenkadesan@gmail.com",
         instagram: "https://instagram.com/prasxth.pvt_",
