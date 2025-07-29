@@ -176,9 +176,9 @@ export default function TeamSection() {
       role: "Creative Co-Lead",
       image: "/placeholder.svg?height=200&width=200&text=Madhusha",
       social: {
-        email: "mailto:madhusha@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:madhushaharini2005@gmail.com",
+        instagram: "https://www.instagram.com/_madhushaharini?igsh=cXlta2JmcWlvZmN4",
+        linkedin: "https://www.linkedin.com/in/madhusha-harini-7459312a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     },
     {
@@ -196,9 +196,9 @@ export default function TeamSection() {
       role: "Outreach Co-Lead",
       image: "/placeholder.svg?height=200&width=200&text=Aboorvan",
       social: {
-        email: "mailto:aboorvan@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:sba.aboorvan@gmail.com",
+        instagram: "https://www.instagram.com/abooorvan?igsh=dHp3YmUzZWg4bjRj",
+        linkedin: "https://www.linkedin.com/in/aboorvan-s-b-26b5b52a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     },
     {
