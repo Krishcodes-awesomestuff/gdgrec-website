@@ -121,7 +121,7 @@ export default function TeamSection() {
     {
       name: "Deepesh",
       role: "IoT Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Deepesh",
+      image: "/core/Deepesh.jpg",
       social: {
         email: "mailto:oggudeepesh2005@gmail.com",
         instagram: "https://instagram.com/_.zeutron._",
@@ -166,9 +166,9 @@ export default function TeamSection() {
       role: "Creative Lead",
       image: "/placeholder.svg?height=200&width=200&text=Akshithaa",
       social: {
-        email: "mailto:akshithaa@example.com",
-        instagram: "#",
-        linkedin: "#",
+        email: "mailto:Techporcupines@gmail.com",
+        instagram: "https://www.instagram.com/Akab0_0m",
+        linkedin: "https://www.linkedin.com/in/akshithaa2006?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     },
     {
@@ -204,7 +204,7 @@ export default function TeamSection() {
     {
       name: "Venkateswaran",
       role: "Event Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Venkateshwaran",
+      image: "/core/venky.jpg",
       social: {
         email: "mailto:venkateswar.lakshminarasimhan@gmail.com",
         instagram: "https://www.instagram.com/venky.3825?igsh=ZDFhaGtwcnl4Z3lp&utm_source=qr",
