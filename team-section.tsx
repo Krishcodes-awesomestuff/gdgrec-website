@@ -48,7 +48,7 @@ export default function TeamSection() {
     {
       name: "Kishore Kayyes",
       role: "Co-Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Kishore",
+      image: "/core/kishore.jpg",
       social: {
         email: "mailto:kayyes.kishore@gmail.com",
         instagram: "https://www.instagram.com/kayyes.kishore/",
@@ -58,7 +58,7 @@ export default function TeamSection() {
     {
       name: "Awinthika Santhanam",
       role: "Secretary",
-      image: "/placeholder.svg?height=200&width=200&text=Awinthika",
+      image: "/core/awinthika.png",
       social: {
         email: "mailto:awinthikas@gmail.com",
         instagram: "https://instagram.com/awinthika_",
@@ -131,7 +131,7 @@ export default function TeamSection() {
     {
       name: "Lokesh JR",
       role: "Tech-Ops Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Lokesh",
+      image: "/core/lokesh.jpg",
       social: {
         email: "mailto:lokeshsinghn06@gmail.com",
         instagram: "https://www.instagram.com/lxkishh?igsh=MW8yb2ZzYjRkNjZjMQ==",
@@ -224,7 +224,7 @@ export default function TeamSection() {
     {
       name: "Adithyaa Suresh",
       role: "Media Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Aadhityaa",
+      image: "/core/adhi.jpg",
       social: {
         email: "mailto:adithyaasuresh07@gmail.com",
         instagram: "https://www.instagram.com/mainly_adi/profilecard/?igsh=ZGhuc2k0djB0emsw",
