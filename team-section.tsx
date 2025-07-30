@@ -91,7 +91,7 @@ export default function TeamSection() {
     {
       name: "Sanjana",
       role: "App Development Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Sanjana",
+      image: "/core/Sanjana .jpg",
       social: {
         email: "mailto:sanjr.krishnan@gmail.com",
         instagram: "https://instagram.com/_.sanjana39._",
@@ -101,7 +101,7 @@ export default function TeamSection() {
     {
       name: "Haresh R",
       role: "AI Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Haresh",
+      image: "/core/haresh.jpg",
       social: {
         email: "mailto:haresh.r2103@gmail.com",
         instagram: "https://www.instagram.com/hareshh_21/?hl=en#",
@@ -184,7 +184,7 @@ export default function TeamSection() {
     {
       name: "Koustupan",
       role: "Outreach Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Koustupan",
+      image: "/core/koustupan.jpg",
       social: {
         email: "mailto:tkoustupan@gmail.com",
         instagram: "https://www.instagram.com/koustupan9/",
@@ -194,7 +194,7 @@ export default function TeamSection() {
     {
       name: "Aboorvan",
       role: "Outreach Co-Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Aboorvan",
+      image: "/core/aboorvan.jpg",
       social: {
         email: "mailto:sba.aboorvan@gmail.com",
         instagram: "https://www.instagram.com/abooorvan?igsh=dHp3YmUzZWg4bjRj",
@@ -214,7 +214,7 @@ export default function TeamSection() {
     {
       name: "Harshavardhan",
       role: "Event Co-Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Harshavardhan",
+      image: "/core/harshavardhan.jpg",
       social: {
         email: "mailto:harshasri1511@gmail.com",
         instagram: "https://www.instagram.com/har_shx._?igsh=MjBxdnFyNDk3dHFl",
@@ -234,7 +234,7 @@ export default function TeamSection() {
     {
       name: "Benin AF",
       role: "Media Co-Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Benin",
+      image: "/core/benin.jpg",
       social: {
         email: "mailto:benin7070@gmail.com",
         instagram: "https://www.instagram.com/benin_fx?igsh=bzE4bGt4aXVzbmRw",
