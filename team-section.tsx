@@ -234,7 +234,7 @@ export default function TeamSection() {
     {
       name: "Benin AF",
       role: "Media Co-Lead",
-      image: "/core/benin.jpg",
+      image: "/core/benin.JPG",
       social: {
         email: "mailto:benin7070@gmail.com",
         instagram: "https://www.instagram.com/benin_fx?igsh=bzE4bGt4aXVzbmRw",
