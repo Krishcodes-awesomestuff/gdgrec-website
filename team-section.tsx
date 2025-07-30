@@ -174,7 +174,7 @@ export default function TeamSection() {
     {
       name: "Madhusha Harini",
       role: "Creative Co-Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Madhusha",
+      image: "/core/madhusha.jpg",
       social: {
         email: "mailto:madhushaharini2005@gmail.com",
         instagram: "https://www.instagram.com/_madhushaharini?igsh=cXlta2JmcWlvZmN4",
