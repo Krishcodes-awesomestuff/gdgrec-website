@@ -43,7 +43,7 @@ export default function HeroSection() {
               <Image src="/logo.png" alt="GDG REC Logo" width={48} height={48} className="rounded-2xl shadow-lg" />
               <div className="hidden sm:block">
                 <h1 className="text-xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-                  GDG
+                  Google Developer Group
                 </h1>
                 <p className="text-sm text-gray-600 font-medium">Rajalakshmi Engineering College</p>
               </div>

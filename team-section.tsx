@@ -38,7 +38,7 @@ export default function TeamSection() {
     {
       name: "RAKESH DAVID",
       role: "Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Rakesh+David",
+      image: "/core/rakesh.jpg",
       social: {
         email: "mailto:rakeshdavidj@gmail.com",
         instagram: "https://instagram.com/rakeshdavid_27",
@@ -81,7 +81,7 @@ export default function TeamSection() {
     {
       name: "Lokaa",
       role: "Web Development Co-Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Lokaa",
+      image: "/core/lokaa.png",
       social: {
         email: "mailto:lokaa1910@gmail.com",
         instagram: "https://www.instagram.com/lokaa_1910?igsh=MWczMmFyZm85M2xyeA%3D%3D&utm_source=qr",
@@ -141,7 +141,7 @@ export default function TeamSection() {
     {
       name: "Prasanna Kumar",
       role: "Tech-Ops Co-Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Prasanna",
+      image: "/core/prasanna.jpg",
       social: {
         email: "mailto:Mail-prasannakumarpk2023@gmail.com",
         instagram: "https://www.instagram.com/prasannnnaaaaa?igsh=MXdmOG4wZjJhMjJmYw%3D%3D&utm_source=qr",
@@ -154,7 +154,7 @@ export default function TeamSection() {
     {
       name: "Aishwarya",
       role: "Design Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Aishwarya",
+      image: "/core/aishu.jpg",
       social: {
         email: "mailto:aishwaryaarulselvan5@gmail.com",
         instagram: "https://instagram.com/aishkookie_orchid",
