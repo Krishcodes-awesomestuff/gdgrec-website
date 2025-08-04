@@ -111,7 +111,7 @@ export default function TeamSection() {
     {
       name: "Ishana Sabrish",
       role: "AI Co-Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Ishana",
+      image: "/core/ishana.JPG",
       social: {
         email: "mailto:ishanasabrish78@gmail.com",
         instagram: "https://www.linkedin.com/in/ishana-sabrish-a842092a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -164,7 +164,7 @@ export default function TeamSection() {
     {
       name: "Akshithaa H",
       role: "Creative Lead",
-      image: "/placeholder.svg?height=200&width=200&text=Akshithaa",
+      image: "/core/akshit.jpg",
       social: {
         email: "mailto:Techporcupines@gmail.com",
         instagram: "https://www.instagram.com/Akab0_0m",
